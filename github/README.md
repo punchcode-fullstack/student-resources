@@ -6,6 +6,9 @@
 
 - "fork" the assignment
 
+# to see the status of your repo
+```git status```
+
 # to put the repo on your desktop
 
 ```git clone link-to-repo.git```
