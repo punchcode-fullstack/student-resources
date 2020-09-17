@@ -40,6 +40,12 @@ git push origin name-of-branch
 
 ## make PR (pull request) when done
 
+## check persons work
+
+```bash
+git pull origin name-of-branch
+```
+
 ## have person review pull request
 
 ## merge pr
