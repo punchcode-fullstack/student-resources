@@ -45,3 +45,13 @@ git push origin name-of-branch
 ## merge pr
 
 ## git checkout master
+
+```bash
+git pull origin master
+```
+
+## git checkout new branch
+
+```bash
+git checkout -b new-branch
+```
