@@ -26,7 +26,7 @@ git push origin master
 git clone link-to-personal-repo.git
 ```
 
-## make a branch
+## make a branch from master branch
 
 ```bash
 git checkout -b name-of-branch
