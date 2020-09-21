@@ -6,4 +6,12 @@ npm install
 
 ## to start server
 
-`npm run start`
+```bash
+npm run start
+```
+
+## to stop server
+
+```
+control c
+```
