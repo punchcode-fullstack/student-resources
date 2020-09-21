@@ -1,4 +1,4 @@
-## to install packages from package.json
+## to install packages from package.json (inside folder with package.json)
 
 ```bash
 npm install
