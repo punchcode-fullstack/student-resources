@@ -39,6 +39,8 @@ for (let i = 0; i < arr.length; i++) {
 console.log(arr)
 ```
 
+## JS Doc
+
 - JSDoc (https://jsdoc.app/about-getting-started.html)
 - JSDoc is a markup language used to annotate JavaScript source code files. Using comments containing JSDoc, programmers can add documentation describing the application programming interface of the code they're creating.
 
