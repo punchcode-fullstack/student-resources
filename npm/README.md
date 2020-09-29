@@ -49,3 +49,9 @@ yarn add name-of-package
 ```bash
 yarn remove name-of-package
 ```
+
+### creating a react project
+
+```
+npx create-react-app name-of-app
+```
