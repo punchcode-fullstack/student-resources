@@ -12,3 +12,9 @@ json-server --watch db.json --port 3001
     "serve": "json-server --watch db.json --port 3001"
 }
 ```
+
+## to quit
+
+```bash
+command c
+```
