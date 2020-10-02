@@ -8,7 +8,6 @@ json-server --watch db.json --port 3001
 
 ```json
 "scripts": {
-    // other stuff here - command below....
     "serve": "json-server --watch db.json --port 3001"
 }
 ```
