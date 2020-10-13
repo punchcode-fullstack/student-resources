@@ -8,6 +8,8 @@
 req.body
 ```
 
+### note: this example uses router and notice we don't need to prefix "/api" here
+
 ### retriving query strings and query parameters
 
 #### query string example
@@ -41,7 +43,7 @@ Example of query string and params below:
 ### axios: (post request)
 
 ```js
-axios.post('api/some-url-path', obj)
+axios.post('/api/some-url-path', obj)
 ```
 
 ### express: (listening to post request)
@@ -58,7 +60,7 @@ router.post('/some-url-path', (req, res, next) => {
 ### axios: (get request)
 
 ```js
-axios.get('api/some-get-path')
+axios.get('/api/some-get-path')
 ```
 
 ### express: (listening to get request)
@@ -75,7 +77,7 @@ router.get('/some-get-path', (req, res, next) => {
 ### axios: (patch request)
 
 ```js
-axios.patch('api/some-patch-path', objectToPatch)
+axios.patch('/api/some-patch-path', objectToPatch)
 ```
 
 ### express: (listening to patch request) ///
@@ -92,7 +94,7 @@ router.patch('/some-patch-path', (req, res, next) => {
 ### axios: (delete request - passing id...)
 
 ```js
-axios.delete('api/some-delete-path/1')
+axios.delete('/api/some-delete-path/1')
 ```
 
 ### express: (listening to delete request)
