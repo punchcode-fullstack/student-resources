@@ -17,19 +17,18 @@ req.body
 ```js
 router.get('/my-url-path', (req, res, next) => {
   const name = req.query.name
-  res.json()
+  res.json({ name: name }) // {name: 'foo'}
 })
 ```
 
-#### query param example
+### query param example
 
-- incoming get request: my-url-path/1 ///
-
-````js
+```js
 router.get('/my-url-path/:id', (req, res, next) => {
-const name = req.params.id
-res.json()
-})```
+  const id = req.params.id
+  res.json({ id: id }) // {id: 1} // whatever id is...
+})
+```
 
 Example of query string and params below:
 
@@ -43,15 +42,16 @@ Example of query string and params below:
 
 ```js
 axios.post('api/some-url-path', obj)
-````
+```
 
 ### express: (listening to post request)
 
-````js
+```js
 router.post('/some-url-path', (req, res, next) => {
-    const objectSentFromPost = req.body
-    res.json()
-})```
+  const objectSentFromPost = req.body // whatever obj was....
+  res.json({ foo: true })
+})
+```
 
 ## READ:
 
@@ -59,13 +59,14 @@ router.post('/some-url-path', (req, res, next) => {
 
 ```js
 axios.get('api/some-get-path')
-````
+```
 
 ### express: (listening to get request)
 
 ```js
 router.get('/some-get-path', (req, res, next) => {
-  res.send()
+  const arrayOfInfo = []
+  res.json({ someData: arrayOfInfo })
 })
 ```
 
@@ -79,11 +80,12 @@ axios.patch('api/some-patch-path', objectToPatch)
 
 ### express: (listening to patch request) ///
 
-````js
+```js
 router.patch('/some-patch-path', (req, res, next) => {
-    const objectSentFromPatch = req.body
-    res.send()
-})```
+  const objectSentFromPatch = req.body // whatever objectToPath was....
+  res.send({message: 'hello})
+})
+```
 
 ## DELETE:
 
@@ -91,10 +93,13 @@ router.patch('/some-patch-path', (req, res, next) => {
 
 ```js
 axios.delete('api/some-delete-path/1')
-````
+```
 
 ### express: (listening to delete request)
 
 ```js
-router.delete('/some-delete-path/:id', (req, res, next) => { const idOfThingToDelete = req.params.id // SQL code HERE res.send() })
+router.delete('/some-delete-path/:id', (req, res, next) => {
+  const idOfThingToDelete = req.params.id
+  res.json({ deleted: true })
+})
 ```
