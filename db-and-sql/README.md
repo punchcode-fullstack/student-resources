@@ -39,3 +39,9 @@ CREATE TABLE accounts (
 A resource for this.
 
 https://www.postgresqltutorial.com/postgresql-create-table/
+
+## Dropping a table
+
+```sql
+DROP TABLE table_name
+```
