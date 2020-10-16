@@ -10,7 +10,7 @@ createdb name_of_database
 createuser username
 ```
 
-- IE - run the following for a generic user we can use (will create specific users for a database later)
+- IE - run the following for a generic user we can use
 
 ```bash
 createuser postgres
