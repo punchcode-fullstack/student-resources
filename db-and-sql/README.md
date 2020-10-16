@@ -4,6 +4,18 @@
 createdb name_of_database
 ```
 
+## create a role (createuser is an alias for CREATE ROLE)
+
+```bash
+createuser username
+```
+
+- IE - run the following for a generic user we can use (will create specific users for a database later)
+
+```bash
+createuser postgres
+```
+
 ## data types - what type of data is your column
 
 - VARCHAR()
