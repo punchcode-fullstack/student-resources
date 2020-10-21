@@ -11,6 +11,7 @@ https://dev.to/adammc331/effective-database-design-part-4-jbj
 # Database relationships
 
 - one to one relationship
+  - is established with a foreign key on the both tables (if needed)
 - one to many relationship
   - is established with a foreign key on the "many" table
 - many to many relationship
