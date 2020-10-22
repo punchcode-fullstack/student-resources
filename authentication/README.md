@@ -75,7 +75,7 @@ router.post('/login', async (req, res, next) => {
 module.exports = router
 ```
 
-## creating a protected route list
+## creating a protected route (note the /api/dashboard get)
 
 ```js
 const express = require('express')
