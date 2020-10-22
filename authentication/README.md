@@ -131,6 +131,8 @@ reducer: {
 ## an example of utilizing the request library (note api is used and not axios directly anymore...)
 
 ```js
+import { useHistory } from 'react-router-dom'
+import { useAuth } from './features/authentication/auth'
 import api from './utils/request'
 
 function Login() {
