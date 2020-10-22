@@ -128,6 +128,30 @@ reducer: {
 }
 ```
 
+## an example of utilizing the request library (note api is used and not axios directly anymore...)
+
+```js
+import api from './utils/request'
+
+function Login() {
+  const history = useHistory()
+  const { login } = useAuth()
+  function handle(e) {
+    e.preventDefault()
+    login('authTest', 'password').then((resp) => {
+      history.push('/dashboard')
+    })
+  }
+  return (
+    <form onSubmit={handle}>
+      <input type="text" value="authTest" />
+      <input type="password" value="password" />
+      <button type="submit">submit</button>
+    </form>
+  )
+}
+```
+
 ## utilize authState to compute if the route is allowed to be visited (note protected routes are an AuthRoute - see attached folder)
 
 ```js
