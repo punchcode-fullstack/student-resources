@@ -16,7 +16,7 @@ const sha512 = require('js-sha512')
 const jwt = require('jsonwebtoken')
 
 // could also use a library this is just an example
-function createSalt(len) {
+function createSalt(len = 20) {
   const vals = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
   let str = ''
   for (let i = 0; i < len; i++) {
@@ -175,4 +175,18 @@ function Login() {
     </AuthRoute>
   </Switch>
 </Router>
+```
+
+# regarding user creation...
+
+- you can make user with the password hashed like so... (notice this is the same create salt function as login)
+
+```js
+conn.raw(
+  `
+    INSERT INTO users (username, password, salt)
+    VALUES (?,?,?)
+`,
+  ['testUser', 'password', sha512('password' + createSalt(20))]
+)
 ```
