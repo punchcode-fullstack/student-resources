@@ -4,7 +4,7 @@
 yarn add js-sha512 jsonwebtoken express-jwt
 ```
 
-## User regisration and login
+## User registration and login
 
 - in routes/auth.js
 
@@ -78,6 +78,12 @@ module.exports = router
 ## creating a protected route (note the /api/dashboard get) - you should have routes in a routes folder btw...
 
 ## note the middleware to attach a user (attachUser) from the authorization header coming in from the req object
+
+## dont forget to add a .env file in server with your environment variable (generate a random string - you can google this...)
+
+```txt
+SECRET=iaoplKfEU5PhKOE"
+```
 
 ```js
 const express = require('express')
