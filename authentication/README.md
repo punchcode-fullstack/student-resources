@@ -1,7 +1,7 @@
 ## Backend libraries needed for this implementation
 
 ```bash
-yarn add js-sha512 jsonwebtoken express-jwt
+yarn add js-sha512 jsonwebtoken express-jwt dotenv
 ```
 
 ## User registration and login
