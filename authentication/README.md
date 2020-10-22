@@ -77,6 +77,8 @@ module.exports = router
 
 ## creating a protected route (note the /api/dashboard get) - you should have routes in a routes folder btw...
 
+## note the middleware to attach a user (attachUser) from the authorization header coming in from the req object
+
 ```js
 const express = require('express')
 const app = express()
