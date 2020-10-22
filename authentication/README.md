@@ -82,7 +82,7 @@ module.exports = router
 ## dont forget to add a .env file in server with your environment variable (generate a random string - you can google this...)
 
 ```txt
-SECRET=iaoplKfEU5PhKOE"
+SECRET=iaoplKfEU5PhKOE
 ```
 
 ```js
