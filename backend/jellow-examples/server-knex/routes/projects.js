@@ -10,6 +10,6 @@ router.get('/projects/board', async (req, res) => {
         const cards = await conn.select().table('cards').where('column_id', column.id)
         columns.push({id: column.id, title: column.title, cards})
     }
-    res.json({id: project.id, title: project.title, columns})
+    res.json({id: project[0].id, title: project[0].title, columns})
 })
 module.exports = router

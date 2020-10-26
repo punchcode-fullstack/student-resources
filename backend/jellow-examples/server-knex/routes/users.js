@@ -19,4 +19,8 @@ router.post('/users/:userId/cards/:cardId', async (req, res) => {
     await conn('cards_users').insert({card_id: req.params.cardId, user_id: req.params.userId})
     res.json({message: 'user added to card'})
 })
+router.delete('/users/:userId/cards/:cardId', async (req, res) => {
+    await conn('cards_users').where({card_id: req.params.cardId, user_id: req.params.userId}).del()
+    res.json({message: 'user deleted from card'})
+})
 module.exports = router
