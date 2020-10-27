@@ -10,4 +10,5 @@
 7. FE component planning
 8. Ticket creation
 9. Ticket assignment
-10. FE connecting redux slices state and axios requests
+10. component scaffolding
+11. FE connecting redux slices state and axios requests
