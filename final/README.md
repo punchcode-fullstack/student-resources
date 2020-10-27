@@ -7,5 +7,7 @@
 4. project scaffolding (FE and BE start)
 5. BE table creation and data initialization
 6. BE endpoint creation/conceptualization (think nouns and verbs: IE: I want to "GET" a list of "todos")
-7. FE component scaffolding
-8. FE connecting redux slices state and axios requests
+7. FE component planning
+8. Ticket creation
+9. Ticket assignment
+10. FE connecting redux slices state and axios requests
