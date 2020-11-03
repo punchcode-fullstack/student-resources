@@ -4,6 +4,7 @@
 // id
 // email
 // password
+// avatar url
 // salt
 
 // Projects
@@ -81,6 +82,7 @@ async function main() {
     await conn.schema.createTable(`cards`, (table) => {
         table.increments('id')
         table.integer('column_id').unsigned()
+        table.integer('order')
         table.foreign('column_id').references('columns.id').onDelete('cascade')
         table.string('description', 20)
     })
@@ -97,7 +99,7 @@ async function main() {
     await conn('users').insert({username: 'test', password: sha512('test' + salt), salt: salt})
     await conn('projects').insert({title: 'My new project'})
     await conn('projects_users').insert({project_id: 1, user_id: 1})
-    await conn('columns').insert({title: 'column 1', order: 0, project_id: 1})
+    await conn('columns').insert({title: 'column 1', project_id: 1})
     await conn('cards').insert({column_id: 1, description: 'my first card'})
     await conn('cards_users').insert({card_id: 1, user_id: 1})
 

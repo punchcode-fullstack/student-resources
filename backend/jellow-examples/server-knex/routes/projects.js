@@ -8,7 +8,6 @@ router.get('/projects/board', async (req, res) => {
     const columns = []
     for (let column of projectColumns) {
         const cards = await conn.select().table('cards').where('column_id', column.id)
-        columns.push({id: column.id, title: column.title, cards})
     }
     res.json({id: project[0].id, title: project[0].title, columns})
 })
