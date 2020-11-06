@@ -4,9 +4,9 @@ const conn = require('../db')
 router.get('/projects/board', async (req, res) => {
     const projectId = 1
     const project = await conn.select().table('projects').where('id', projectId)
-    const projectColumns = await conn.select().table('columns').where('project_id', project[0].id)
-    const columns = []
-    for (let column of projectColumns) {
+    const projectColumns = await conn.raw(`SELECT * FROM columns WHERE project_id = ?`, [1])
+    const columnsData = projectColumns.rows
+    for (let column of columnsData) {
         const cards = await conn.select().table('cards').where('column_id', column.id)
         columns.cards = cards
     }
