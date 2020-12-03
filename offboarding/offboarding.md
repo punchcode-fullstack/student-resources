@@ -192,6 +192,8 @@ Additional recommended Resources for learning (paid udemy courses wait for 10 do
 
 15d. CSS - https://www.udemy.com/course/advanced-css-and-sass/
 
+15e. JS Interview: https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/
+
 ## Courses by subscription (part of developer pack)
 
 https://frontendmasters.com/learn/
