@@ -1,10 +1,12 @@
-This was performed on a 2017 OS Catalina Mac (10.15.7)
+# download chrome with m1 chip
 
-# download chrome
-
-# install vscode
+# download vscode
 
 https://code.visualstudio.com/
+
+# to open visual studio code you need to install rosetta
+
+- add install to path (shift command p)
 
 # install git (git --version) part of xcode command line tools
 
@@ -12,21 +14,11 @@ https://code.visualstudio.com/
 
 https://ohmyz.sh
 
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-# install homebrew
-
-https://brew.sh/
+# skip homebrew
 
 # install iterm2
 
 https://iterm2.com/
-
-## setup command to show and hide
-
-iterm2 > preferences > keys > hot key > show/hide all windows with a system-wide hotkey
 
 # install node, npm tooling (using nvm)
 
@@ -44,35 +36,29 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 nvm install --lts
 ```
 
-# install yarn (via homebrew)
+# issue with nvm initially when using iterm
+
+https://github.com/nvm-sh/nvm/issues/2350
+
+get info > open using rosetta
+
+then run nvm command above again
+
+# install yarn (via installation script)
 
 https://classic.yarnpkg.com/en/docs/install/#mac-stable
 
-```bash
-brew install yarn
-```
+# install postgres (postgres app Latest release)
 
-# install postgres
+https://postgresapp.com/
 
-https://wiki.postgresql.org/wiki/Homebrew
-
-```bash
-brew install postgres
-```
-
-# run postgres background daemon process
-
-```bash
-brew services start postgresql
-```
+# go to cli tools and run command to make psql available in terminal
 
 # install beekeeper studio (gui for postgres)
 
 https://www.beekeeperstudio.io/
 
-# install moon modeler (database visualizer) - if trial expired - get again...
-
-https://www.datensen.com/download.html
+# skip moon modeler until we get to backend portion of class (trial)
 
 # install runjs
 
@@ -82,13 +68,17 @@ https://runjs.dev/#platforms
 
 https://slack.com/downloads/instructions/mac
 
-# install zoom
+# install zoom (macs with M1 processor link)
 
 https://zoom.us/download
 
 # install postman
 
 https://www.postman.com/downloads/
+
+# install insomnia
+
+https://insomnia.rest/download/
 
 Add the following extension to vscode:
 
