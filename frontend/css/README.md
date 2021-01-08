@@ -1,5 +1,10 @@
 # CSS
 
+- good general resources for css include
+
+https://css-tricks.com/
+https://developer.mozilla.org/en-US/
+
 ## In CSS, selectors are patterns used to select the element(s) you want to style.
 
 - some examples
@@ -22,6 +27,14 @@ p {
 
 }
 ```
+
+## Common selectors
+
+https://codepen.io/punchcode/pen/JjRBdeR?editors=1100
+
+### See more (don't feel the need to memorize)
+
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
 ## box model
 
@@ -50,3 +63,13 @@ https://codepen.io/punchcode/pen/rNMrVpB?editors=1100
 ### interactive example
 
 http://sexy-flexy-flexbox.s3-website-us-east-1.amazonaws.com/
+
+
+## Positioning
+
+https://css-tricks.com/almanac/properties/p/position/
+## Pseudo class an Pseudo Elements
+
+https://codepen.io/punchcode/pen/eYNJdeK
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements
