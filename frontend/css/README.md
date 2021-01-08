@@ -25,15 +25,27 @@ p {
 
 ## box model
 
-https://www.w3schools.com/css/css_boxmodel.asp
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#what_is_the_css_box_model
 
-## specificity: in order of important (inline style, id, class, tag)
+### An example here
+
+https://codepen.io/punchcode/pen/oNzMXEY?editors=1100
+
+## margin and padding
+
+- both of these properties accept multiple values
+
+## specificity: in order of importance (inline style, id, class, tag)
 
 https://stuffandnonsense.co.uk/archives/css_specificity_wars.html
 
 ## layout (flexbox)
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### An example here
+
+https://codepen.io/punchcode/pen/rNMrVpB?editors=1100
 
 ### interactive example
 

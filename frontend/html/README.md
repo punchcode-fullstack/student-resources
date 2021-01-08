@@ -1,4 +1,6 @@
 # html: hypertext markup language
+
+https://codepen.io/punchcode/pen/abmjOwz?editors=1000
 ## typical document
 
 ```html
@@ -17,7 +19,7 @@
 ## Head
 
 - holds meta data (data about data)
-- title tag identifies the title of the document (in chrome)
+- title tag identifies the title of the document (in the browser)
 
 ```html
 <head>
@@ -104,3 +106,9 @@
 <hr>
 <p>a parapgraph with opening and closing tags</p>
 ```
+
+## Block level vs inline elements
+
+A Block-level element occupies the entire horizontal space of its parent element (container), and vertical space equal to the height of its contents, thereby creating a "block".
+
+https://codepen.io/punchcode/pen/WNGKvEg?editors=1100
