@@ -8,6 +8,11 @@
 
 ![fork](fork-end.png)
 
+- copy the url (aka the github remote) to your clipboard
+- be sure it is marked as ssh
+
+![fork](clone.png)
+
 # add to a repository (all the commands below go in the terminal)
 
 ```bash
