@@ -1,9 +1,13 @@
-# CSS
+# CSS: cascading style sheets
 
 - good general resources for css include
 
 https://css-tricks.com/
 https://developer.mozilla.org/en-US/
+
+## common css properties
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 
 ## In CSS, selectors are patterns used to select the element(s) you want to style.
 
