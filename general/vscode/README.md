@@ -3,6 +3,7 @@
 - command z (undo)
 - command c (copy)
 - command v (paste)
+- command / (comment out a selection or current line)
 - shift command z (redo)
 - command p (go to file)
 - tab (indent)
