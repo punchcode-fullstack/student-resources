@@ -60,15 +60,18 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 https://codepen.io/punchcode/pen/rNMrVpB?editors=1100
 
+### Another example here
+
+https://codepen.io/punchcode/pen/poEZJmM
+
 ### interactive example
 
 http://sexy-flexy-flexbox.s3-website-us-east-1.amazonaws.com/
 
-
 ## Positioning
 
 https://css-tricks.com/almanac/properties/p/position/
-## Pseudo class an Pseudo Elements
+## Pseudo class and Pseudo Elements
 
 https://codepen.io/punchcode/pen/eYNJdeK
 
