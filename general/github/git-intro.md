@@ -13,6 +13,12 @@
 
 ![fork](clone.png)
 
+- clone the repository to your computer (puts the repo on your computer)
+
+```bash
+git clone link-that-you-just-copied-to-your-clipboard.git
+```
+
 # add to a repository (all the commands below go in the terminal)
 
 ```bash
