@@ -15,25 +15,31 @@
 
 - clone the repository to your computer (puts the repo on your computer)
 
+# all the commands below go in the terminal
+
 ```bash
 git clone link-that-you-just-copied-to-your-clipboard.git
 ```
 
-# add to a repository (all the commands below go in the terminal)
+## add changes to a repository
 
 ```bash
 git add .
 ```
 
+## commit your changes
+
 ```bash
 git commit -m "message"
 ```
-# if your terminal says master
+
+## push your code to github
+### if your terminal says master
 ```bash
 git push origin master
 ```
 
-# if your terminal says main
+### if your terminal says main
 ```bash
 git push origin main
 ```
