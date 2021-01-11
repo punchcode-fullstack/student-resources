@@ -2,6 +2,9 @@
 
 http://pc-js-intro.surge.sh/?slide=0&slideElement=-1
 
+## if statments (read more)
+
+https://javascript.info/ifelse
 
 ## if statements practical example
 
