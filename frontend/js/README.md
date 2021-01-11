@@ -21,3 +21,9 @@ https://codepen.io/punchcode/pen/VwaejWE
 </body>
 </html>
 ```
+
+## debugging js
+
+```js
+console.log('a variable or string')
+```
