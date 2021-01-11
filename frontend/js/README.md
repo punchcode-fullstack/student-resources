@@ -2,7 +2,7 @@
 
 http://pc-js-intro.surge.sh/?slide=0&slideElement=-1
 
-## if statments (read more)
+## if statements (read more)
 
 https://javascript.info/ifelse
 
