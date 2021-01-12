@@ -30,3 +30,7 @@ https://codepen.io/punchcode/pen/VwaejWE
 ```js
 console.log('a variable or string')
 ```
+
+## syntax view
+
+https://markdown-flashcard.surge.sh/js
