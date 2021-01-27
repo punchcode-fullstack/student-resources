@@ -8,10 +8,14 @@
 # Daily flow for GitHub
 
 1. Pick a ticket from trello
+
+![fork](1-example-ticket.png)
+
 2. Make a branch for that ticket from main/master
 ```bash
 git checkout -b name-of-branch
 ```
+![fork](2-branch.png)
 3. do the task
 4. push up changes to branch
 ```bash
@@ -20,7 +24,10 @@ git commit -m "a good description of what you did"
 git push origin name-of-branch
 ```
 5. make a pull request on github (PR) when done
+![fork](3-create-pull.png)
+![fork](4-create-pull-2.png)
 6. Ask for someone to review your code (send link to PR)
+![fork](5-message.png)
 7. If the person wants to check out the code
 ```bash
 git fetch --all
