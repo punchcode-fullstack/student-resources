@@ -42,7 +42,7 @@ git pull origin main
 ```
 11. Repeat Steps 1-10
 
-# Conflicts
+# Conflicts (when trying to merge a branch)
 
 When you are making changes to the same file (such as index.html), conflicts are inevitable.
 
