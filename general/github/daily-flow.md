@@ -1,4 +1,4 @@
-# Inihe ial Project Start
+# Initial Project Start
 
 1. Create a Repo
 2. Add collaborators to project
