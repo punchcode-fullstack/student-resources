@@ -41,3 +41,19 @@ git checkout main
 git pull origin main
 ```
 11. Repeat Steps 1-10
+
+# Conflicts
+
+When you are making changes to the same file (such as index.html), conflicts are inevitable.
+
+To Resolve a conflict...
+
+1. From the branch that is unable to be merged
+
+```bash
+git pull origin main
+```
+
+2. Resolve the files with conflicts
+
+![fork](6-conflicts.png)
