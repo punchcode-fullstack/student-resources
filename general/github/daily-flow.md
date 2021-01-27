@@ -61,3 +61,9 @@ git pull origin main
 3. Decide if you want to keep your code, the other persons, or both
 
 ![fork](7-conflict-vscode.png)
+
+```bash
+git add .
+git commit -m "resolved conflicts"
+git push origin name-of-branch
+```
