@@ -60,6 +60,8 @@ git pull origin main
 
 3. Decide if you want to keep your code, the other persons, or both
 
+(Accept Current Change, Accept Incoming Change, Accept Both Changes)
+
 ![fork](7-conflict-vscode.png)
 
 ```bash
