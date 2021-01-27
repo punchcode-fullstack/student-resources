@@ -67,3 +67,5 @@ git add .
 git commit -m "resolved conflicts"
 git push origin name-of-branch
 ```
+
+Go to step 8...
