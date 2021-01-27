@@ -16,7 +16,7 @@ git checkout -b name-of-branch
 4. push up changes to branch
 ```bash
 git add .
-git commit -m ""
+git commit -m "a good description of what you did"
 git push origin name-of-branch
 ```
 5. make a pull request on github (PR) when done
