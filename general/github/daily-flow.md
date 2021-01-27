@@ -57,3 +57,5 @@ git pull origin main
 2. Resolve the files with conflicts
 
 ![fork](6-conflicts.png)
+
+3. Decide if you want to keep your code, the other persons, or both
