@@ -59,3 +59,5 @@ git pull origin main
 ![fork](6-conflicts.png)
 
 3. Decide if you want to keep your code, the other persons, or both
+
+![fork](7-conflict-vscode.png)
