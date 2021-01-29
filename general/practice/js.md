@@ -132,3 +132,7 @@ foo.addEventListener('click', () => {
 ```
 
 - synthesizing these concepts together
+
+## The scary tree of js knowledge
+
+[practice](function-practice-atoms.png)
