@@ -133,6 +133,8 @@ foo.addEventListener('click', () => {
 
 - synthesizing these concepts together
 
-## The scary tree of js knowledge
+## The scary trees of js knowledge
 
-[practice](function-practice-atoms.png)
+![practice](function-practice-atoms.png)
+
+![mental-model](js-mental-model.png)
