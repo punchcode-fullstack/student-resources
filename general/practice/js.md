@@ -1,5 +1,15 @@
 # Concepts to practice in order
 
+## Syntax reference
+
+https://markdown-flashcard.surge.sh/js
+
+## Guide
+
+- js info is amazing
+
+https://javascript.info/
+
 Everything listed should be praticed with
 
 - primitives (numbers, booleans, strings, etc)
