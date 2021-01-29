@@ -17,10 +17,14 @@ const x = 'a'
 
 ```js
 const person = {
-    first: 'Nick'
+    first: 'Nick',
+    nested: {
+        cool: true
+    }
 }
 const arr = [1,2,3]
 const theName = person.name // 'Nick'
+const isCool = person.nested.cool // true
 const theLetterN = person.name[0]
 const theFirstItem = arr[0]
 ```
