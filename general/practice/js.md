@@ -107,4 +107,14 @@ const add3 = function (a, b) {
 'hello'.split('') // ['h', 'e', 'l', 'l', 'o']
 ```
 
-- DOM stuff
+- DOM stuff (selecting html elements, event listeners)
+
+```js
+const foo = document.querySelector('#foo')
+foo.addEventListener('click', () => {
+
+})
+//......
+```
+
+- synthesizing these concepts together
