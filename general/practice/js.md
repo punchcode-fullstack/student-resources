@@ -138,3 +138,43 @@ foo.addEventListener('click', () => {
 ![practice](function-practice-atoms.png)
 
 ![mental-model](js-mental-model.png)
+
+## JS
+
+- the below code can be ignored...
+
+- JS 1:
+
+https://codepen.io/punchcode/pen/mdPwPEx
+
+- JS 2:
+
+https://codepen.io/punchcode/pen/RwagRrO
+
+- JS 3:
+
+https://codepen.io/punchcode/pen/zYqoJxq
+
+- JS 4:
+
+https://codepen.io/punchcode/pen/mdPjBzz
+
+- JS 5:
+
+https://codepen.io/punchcode/pen/eYZjGQB
+
+- JS 6:
+
+https://codepen.io/punchcode/pen/QWNBqzw
+
+- JS 7:
+
+https://codepen.io/punchcode/pen/KKzBXJd
+
+- JS 8:
+
+https://codepen.io/punchcode/pen/PoNBJVL
+
+- JS 9:
+
+https://codepen.io/punchcode/pen/oNxMGVd?editors=0010
