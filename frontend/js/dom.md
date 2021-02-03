@@ -17,7 +17,10 @@ document.querySelectorAll('some css selector)
 
 # add event listener
 
+- a function that sets up a "listener" to listen for a browser event  like a click, submit, etc...
+
 ```js
+// IE submit, click
 someElementGrabbed.addEventListener('name of event', someFunction)
 ```
 
