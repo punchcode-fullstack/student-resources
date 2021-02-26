@@ -8,8 +8,6 @@
 req.body
 ```
 
-### note: this example uses router and notice we don't need to prefix "/api" here
-
 ### retriving query strings and query parameters
 
 #### query string example
