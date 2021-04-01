@@ -3,7 +3,12 @@
 - good general resources for css include
 
 https://css-tricks.com/
+
 https://developer.mozilla.org/en-US/
+
+## a good guide for css
+
+https://www.taniarascia.com/overview-of-css-concepts/
 
 ## common css properties
 
@@ -14,21 +19,19 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
 - some examples
 
 ```css
-
 #idSelector {
-    color: red;
+  color: red;
 }
 
 .class-selector {
-    background: green;
+  background: green;
 }
 /* tag selector */
 p {
-    font-size: 100px;
+  font-size: 100px;
 }
 /* descendant selector */
 .parent p {
-
 }
 ```
 
@@ -75,6 +78,7 @@ http://sexy-flexy-flexbox.s3-website-us-east-1.amazonaws.com/
 ## Positioning
 
 https://css-tricks.com/almanac/properties/p/position/
+
 ## Pseudo class and Pseudo Elements
 
 https://codepen.io/punchcode/pen/eYNJdeK
