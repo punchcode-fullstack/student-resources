@@ -6,7 +6,7 @@ https://css-tricks.com/
 
 https://developer.mozilla.org/en-US/
 
-## a good guide for css
+## a good guide for css essential concepts
 
 https://www.taniarascia.com/overview-of-css-concepts/
 

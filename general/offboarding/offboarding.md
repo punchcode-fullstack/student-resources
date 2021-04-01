@@ -9,6 +9,10 @@ if statements (if/else, ternary, with logic operators like && and ||)
 for loops
 array methods
 
+### practice video
+
+https://www.youtube.com/watch?v=-leHdKgqBhI&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=64&ab_channel=PunchCode
+
 ## Previous project cleanup/deployment and Portfolio/Resume
 
 2a. Go to past assignments and clear up code format
