@@ -27,3 +27,15 @@ https://frontendmasters.com/books/front-end-handbook/2019/#1
 [Build stuff for 30 days!](https://javascript30.com/)
 
 [Scrimba - Course with interactive text editor/video player](https://scrimba.com/)
+
+### main frameworks libraries
+
+[React](https://reactjs.org/)
+
+[Angular](https://angular.io/)
+
+[Vue](https://vuejs.org/)
+
+[Svelte](https://svelte.dev/)
+
+[Express](https://expressjs.com/)
