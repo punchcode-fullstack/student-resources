@@ -211,3 +211,7 @@ https://github.com/kamranahmedse/developer-roadmap
 Design
 
 https://frontendmasters.com/courses/design-for-developers/
+
+## offboarding
+
+https://www.notion.so/Life-After-PunchCode-90939e4ea738449db1a75e7b81b7b69d

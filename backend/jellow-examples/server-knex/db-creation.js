@@ -41,73 +41,77 @@ const { createSalt } = require('./utils/auth')
 // NOTE this order does not matter if cascade deletion is set otherwise this is the order it'd need to be
 // due to foreign key reference issue during deletion
 const tables = [
-    'projects_users',
-    'cards_users',
-    'users',
-    'cards',
-    'columns',
-    'projects',
+  'projects_users',
+  'cards_users',
+  'users',
+  'cards',
+  'columns',
+  'projects',
 ]
 async function main() {
-    for (let table of tables) {
-        const hasTable = await conn.schema.hasTable(table)
-        if (hasTable) {
-            await conn.schema.dropTable(table)
-        }
+  for (let table of tables) {
+    const hasTable = await conn.schema.hasTable(table)
+    if (hasTable) {
+      await conn.schema.dropTable(table)
     }
-    await conn.schema.createTable(`users`, (table) => {
-        table.increments('id')
-        table.string('username', 45)
-        table.string('password', 128)
-        table.string('salt', 20)
-    })
-    await conn.schema.createTable(`projects`, (table) => {
-        table.increments('id')
-        table.string('title', 45)
-    })
-    await conn.schema.createTable(`projects_users`, (table) => {
-        table.integer('project_id').unsigned()
-        table.foreign('project_id').references('projects.id').onDelete('cascade')
-        table.integer('user_id').unsigned()
-        table.foreign('user_id').references('users.id')
-    })
-    await conn.schema.createTable(`columns`, (table) => {
-        table.increments('id')
-        table.string('title', 20)
-        table.integer('order')
-        table.integer('project_id').unsigned()
-        table.foreign('project_id').references('projects.id')
-    })
+  }
+  await conn.schema.createTable(`users`, (table) => {
+    table.increments('id')
+    table.string('username', 45)
+    table.string('password', 128)
+    table.string('salt', 20)
+  })
+  await conn.schema.createTable(`projects`, (table) => {
+    table.increments('id')
+    table.string('title', 45)
+  })
+  await conn.schema.createTable(`projects_users`, (table) => {
+    table.integer('project_id').unsigned()
+    table.foreign('project_id').references('projects.id').onDelete('cascade')
+    table.integer('user_id').unsigned()
+    table.foreign('user_id').references('users.id')
+  })
+  await conn.schema.createTable(`columns`, (table) => {
+    table.increments('id')
+    table.string('title', 20)
+    table.integer('order')
+    table.integer('project_id').unsigned()
+    table.foreign('project_id').references('projects.id').onDelete('cascade')
+  })
 
-    await conn.schema.createTable(`cards`, (table) => {
-        table.increments('id')
-        table.integer('column_id').unsigned()
-        table.integer('order')
-        table.foreign('column_id').references('columns.id').onDelete('cascade')
-        table.string('description', 20)
-    })
-    // NOTE: this is something to watch out for on foreign key relationships
-    // DELETE FROM cards WHERE id = 1 - update or delete on table "cards" violates foreign key constraint
-    // "cards_users_card_id_foreign" on table "cards_users"
-    await conn.schema.createTable(`cards_users`, (table) => {
-        table.integer('card_id').unsigned()
-        table.foreign('card_id').references('cards.id').onDelete('cascade')
-        table.integer('user_id').unsigned()
-        table.foreign('user_id').references('users.id')
-    })
-    const salt = createSalt(20)
-    await conn('users').insert({username: 'test', password: sha512('test' + salt), salt: salt})
-    await conn('projects').insert({title: 'My new project'})
-    await conn('projects_users').insert({project_id: 1, user_id: 1})
-    await conn('columns').insert({title: 'column 1', project_id: 1})
-    await conn('cards').insert({column_id: 1, description: 'my first card'})
-    await conn('cards_users').insert({card_id: 1, user_id: 1})
+  await conn.schema.createTable(`cards`, (table) => {
+    table.increments('id')
+    table.integer('column_id').unsigned()
+    table.integer('order')
+    table.foreign('column_id').references('columns.id').onDelete('cascade')
+    table.string('description', 20)
+  })
+  // NOTE: this is something to watch out for on foreign key relationships
+  // DELETE FROM cards WHERE id = 1 - update or delete on table "cards" violates foreign key constraint
+  // "cards_users_card_id_foreign" on table "cards_users"
+  await conn.schema.createTable(`cards_users`, (table) => {
+    table.integer('card_id').unsigned()
+    table.foreign('card_id').references('cards.id').onDelete('cascade')
+    table.integer('user_id').unsigned()
+    table.foreign('user_id').references('users.id')
+  })
+  const salt = createSalt(20)
+  await conn('users').insert({
+    username: 'test',
+    password: sha512('test' + salt),
+    salt: salt,
+  })
+  await conn('projects').insert({ title: 'My new project' })
+  await conn('projects_users').insert({ project_id: 1, user_id: 1 })
+  await conn('columns').insert({ title: 'column 1', project_id: 1 })
+  await conn('cards').insert({ column_id: 1, description: 'my first card' })
+  await conn('cards_users').insert({ card_id: 1, user_id: 1 })
 
-    // Testing out the foreign key deletion issues here...
-    // await conn.raw(`DELETE FROM cards WHERE id = 1`)
+  // Testing out the foreign key deletion issues here...
+  // await conn.raw(`DELETE FROM cards WHERE id = 1`)
 
-    // board SQL
-    process.exit()
+  // board SQL
+  process.exit()
 }
 main()
 
