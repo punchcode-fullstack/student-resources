@@ -84,3 +84,7 @@ https://css-tricks.com/almanac/properties/p/position/
 https://codepen.io/punchcode/pen/eYNJdeK
 
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements
+
+## css selector cheatsheet
+
+https://gist.github.com/magicznyleszek/809a69dd05e1d5f12d01

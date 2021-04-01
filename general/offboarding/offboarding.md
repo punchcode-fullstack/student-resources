@@ -55,6 +55,10 @@ https://www.youtube.com/watch?v=-leHdKgqBhI&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx6
 
 4h. DOM (document object model) API - document.getElementById, querySelector, addEventListener, very basic jquery review)
 
+### practice video
+
+https://www.youtube.com/watch?v=-leHdKgqBhI&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=64&ab_channel=PunchCode
+
 ## ES6 Tooling
 
 5a. Default vs named imports
@@ -165,9 +169,9 @@ https://javascript.info/
 
 13e. Explain CRUD
 
-## Mysql and SQL
+## Postgres and SQL
 
-14a. What is mysql
+14a. What is postgres
 
 14b. What is SQL (https://www.w3schools.com/sql/)
 
@@ -181,7 +185,7 @@ https://javascript.info/
 
 14g. joining data together (https://www.w3schools.com/sql/sql_join.asp)
 
-14h. Working with mysql workbench or similar GUI (graphical user interface)
+14h. Working with beekeeper studio or similar GUI (graphical user interface)
 https://www.reddit.com/r/SQL/comments/9o3o0o/list_of_awesome_public_datasets/
 
 ## Additional learning resources below...
@@ -202,9 +206,9 @@ Additional recommended Resources for learning (paid udemy courses wait for 10 do
 
 https://frontendmasters.com/learn/
 
-## Internal Resources (links and book recommendations)
+<!-- ## Internal Resources (links and book recommendations)
 
-17a. https://github.com/PC-Fullstack-PT-Jan-2020/resources
+17a. https://github.com/PC-Fullstack-PT-Jan-2020/resources -->
 
 ## General Roadmap (don’t be intimidated by this - this is just an overarching thing you can select things from for years...)
 

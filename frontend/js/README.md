@@ -11,17 +11,18 @@ https://javascript.info/ifelse
 https://codepen.io/punchcode/pen/VwaejWE
 
 ## importing a script in html
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <script src="main.js"></script>
-</body>
+  </head>
+  <body>
+    <script src="main.js"></script>
+  </body>
 </html>
 ```
 
@@ -34,3 +35,7 @@ console.log('a variable or string')
 ## syntax view
 
 https://markdown-flashcard.surge.sh/js
+
+## react and js
+
+https://fullstackopen.com/en/part1/introduction_to_react
