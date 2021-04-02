@@ -1,3 +1,3 @@
-# here's an axample of a style guide
+# here's an example of a style guide
 
 https://javascript.info/coding-style
