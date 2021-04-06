@@ -1,0 +1,2 @@
+- first week:
+    - ask student what they want to get out of class: 10 mins

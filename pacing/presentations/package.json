@@ -1,0 +1,23 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wk2-intro": "mdx-deck week-2/js-intro.mdx",
+    "wk2-loop-func": "mdx-deck week-2/loops-functions.mdx",
+    "build-intro": "mdx-deck build week-2/js-intro.mdx",
+    "deploy-intro": "yarn run build-intro && node deploy.js && cd public && surge",
+    "react-intro": "msx-deck react/index.mdx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "code-surfer": "^3.1.1"
+  }
+}

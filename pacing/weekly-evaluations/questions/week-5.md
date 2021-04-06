@@ -1,0 +1,3 @@
+- what is a wireframe
+- what is a sprint
+- what is trello

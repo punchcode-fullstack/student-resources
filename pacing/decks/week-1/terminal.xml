@@ -1,0 +1,13 @@
+<deck title="terminal">
+    <section title="basics" language="bash">
+        <card>
+            <front>
+            ## pwd
+            </front>
+            <back>
+            print working directory - shows which folder you are currently in.
+            </back>
+            <meta>pwd</meta>
+        </card>
+    </section>
+</deck>
