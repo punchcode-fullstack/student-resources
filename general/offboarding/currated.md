@@ -1,4 +1,4 @@
-# habits/mindfullness
+# habits/mindfulness
 
 https://dev.to/ruffle1986/atomic-habits-book-review-and-cheat-sheet-1bh4
 
@@ -18,11 +18,11 @@ https://www.youtube.com/watch?v=GHm2lrF_3H4&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx6
 
 https://www.youtube.com/watch?v=--NHQu-ydhU&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=115&ab_channel=PunchCode
 
-## Easy wins
+## Easy wins (to maintain motivation in coding)
 
 https://www.youtube.com/watch?v=tfUjdJ7Qvss&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=124&ab_channel=PunchCode
 
-## Googling
+## Googling (your best friend)
 
 https://www.youtube.com/watch?v=h8GZAkmPc4g&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=130&ab_channel=PunchCode
 
@@ -30,11 +30,19 @@ https://www.youtube.com/watch?v=h8GZAkmPc4g&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx6
 
 https://www.youtube.com/watch?v=6_3ETWh6alc&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=210&ab_channel=PunchCode
 
-## practice
+# practice
 
 https://www.youtube.com/watch?v=e30ZptGl-gE&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=137&ab_channel=PunchCode
 
-# resources
+https://www.youtube.com/watch?v=e30ZptGl-gE&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=137&ab_channel=PunchCode
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/general/practice
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/general/problem-solving/keeping-your-brain-organized
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/code-challenges
+
+# a good general resource (can search any concept in here, IE react hooks, flexbox, postgres, redux,etc)
 
 - amazing resource for development in general
 
@@ -50,9 +58,11 @@ https://scrimba.com/learn/htmlcss
 
 https://scrimba.com/learn/flexbox
 
-## react
+# js
 
-https://scrimba.com/learn/learnreact
+https://javascript.info/coding-style
+
+https://javascript.info/
 
 ## talk about State
 
@@ -62,13 +72,25 @@ https://www.youtube.com/watch?v=XhSneYArCds&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx6
 
 https://www.youtube.com/watch?v=VSAWVXkfsuM&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=136&ab_channel=PunchCode
 
-## practice
+## map example (code challenge)
 
-https://www.youtube.com/watch?v=e30ZptGl-gE&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=137&ab_channel=PunchCode
+https://www.youtube.com/watch?v=jxeVw-1Rd7c&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=198&ab_channel=PunchCode
+
+# react
+
+https://scrimba.com/learn/learnreact
 
 ## Everything is js (react)
 
 https://www.youtube.com/watch?v=C1iWhsCtoWE&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=154&ab_channel=PunchCode
+
+## code to review
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/frontend/react/todo-variations
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/frontend/react/shopping-cart-done
+
+https://github.com/punchcode-fullstack/student-resources/tree/master/frontend/react/teacher-super-example
 
 ## Slice
 
@@ -76,17 +98,9 @@ https://www.youtube.com/watch?v=xPrDyTeXPKo&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx6
 
 https://www.youtube.com/watch?v=FrBMP6ZWFYA&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=221&ab_channel=PunchCode
 
-## map example (code challenge)
-
-https://www.youtube.com/watch?v=jxeVw-1Rd7c&list=PLa5bYMAqOz6OzIVc6pbXhmAcDE4hx61Pp&index=198&ab_channel=PunchCode
-
 ## Interview: awesome course (first 4 hours)
 
 https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/
-
-## code to review
-
-https://github.com/punchcode-fullstack/student-resources/tree/master/frontend/react/todo-variations
 
 ## practical examples codepen
 
