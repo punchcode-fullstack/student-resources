@@ -1,5 +1,7 @@
 # This readme is a currated list of articles and videos from prior cohorts
 
+- take this a day at a time - and if you feel like you need more focus on said things below, take a look. 😎
+
 ## habits/mindfulness
 
 https://dev.to/ruffle1986/atomic-habits-book-review-and-cheat-sheet-1bh4
