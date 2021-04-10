@@ -3,6 +3,10 @@
 - a quick note this in no way an extensive list of commands
 - merely some commands in a real world repo
 
+- here's a nice article that explains the different lifecycles of git
+
+https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
+
 ## lower level git
 
 ![lower level tree](references/lower-level-tree-stuff.png)
