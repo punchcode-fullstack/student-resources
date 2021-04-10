@@ -2,6 +2,7 @@
 
 - a quick note this in no way an extensive list of commands
 - merely some commands in a real world repo
+- I'd like to note the descriptions here are lacking you can investigate the commands further with the power of google!
 
 - here's a nice article that explains the different lifecycles of git
 
