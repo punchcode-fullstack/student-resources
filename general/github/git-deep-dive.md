@@ -9,6 +9,8 @@ https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
 
 ## lower level git
 
+https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+
 ![lower level tree](references/lower-level-tree-stuff.png)
 
 ![lower level tree parent](references/lower-level-tree-parent-stuff.png)
