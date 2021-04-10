@@ -7,6 +7,16 @@
 
 https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
 
+## GUI tool
+
+- in class we used a lot of terminal stuff when interacting with git, which is fine - but when doing more complicated stuff - sometimes you may want to work with something like git kracken
+
+https://www.gitkraken.com/
+
+### a video below shows you how it works (warning they going into things you haven't heard of before like squash and tags)
+
+https://www.youtube.com/watch?v=ub9GfRziCtU&ab_channel=GitKraken
+
 ## lower level git
 
 https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
