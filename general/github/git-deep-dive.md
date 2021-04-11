@@ -8,6 +8,10 @@
 
 https://dev.to/sublimegeek/git-staging-area-explained-like-im-five-1anh
 
+- a nice article about git concepts in general
+
+https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
+
 ## GUI tool
 
 - in class we used a lot of terminal stuff when interacting with git, which is fine - but when doing more complicated stuff - sometimes you may want to work with something like git kracken
