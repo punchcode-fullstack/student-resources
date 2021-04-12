@@ -21,3 +21,7 @@ https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass
 ## problem solving article to check out
 
 https://medium.com/launch-school/solving-coding-problems-with-pedac-29141331f93f
+
+## random article on interviewing
+
+https://dev.to/slawomirkolodziej/what-do-you-need-to-know-as-a-junior-frontend-developer-bonus-interview-questions-32ba
