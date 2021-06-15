@@ -1,14 +1,15 @@
-(1h 30min)
+Total Time: 235 minutes
 
 # Who are we?
 * TechImpact (30 sec)
 * Punchcode (30 sec)
 * Employers?
 
-## Course Overview (what will we learn (hard skills)?) (3 min)
+## Course Overview (hard skills) (3 min)
 * Internet Basics for Programmers (client/server paradigm, IPv4, DNS)
 * Computer Basics for Programmers (computer architecture, binary/octal/hex, file systems, files ACL)
 * Web development toolchain stack (editor, linter, source control, etc)
+* Markdown
 * HTML/5
 * CSS/3
 * Javascript/Typescript
@@ -58,7 +59,8 @@ at companies you've heard of.
 * re-learn new ways of doing old things
 * be well compensated for building things that will benefit many people
 
-## Questions
+### workshop
+* questions so far
 
 
 ---
@@ -74,8 +76,11 @@ at companies you've heard of.
 ## ergonomics: chair, desk, keyboard, mouse, etc.
 ## lifestyle: sleep, exercise, stress
 ## pomodoro
-## show carpal tunnel exercises
-## discuss basic simple exercises (ex: air squats)
+
+
+###workshop (15 min)
+* show carpal tunnel exercises
+## discuss basic simple exercises to do on breaks(ex: air squats)
 
 ---
 # Productivity (10 min)
@@ -88,3 +93,58 @@ at companies you've heard of.
 # Professional Development/Goals (15 min)
 ## Why are you here?
 ## Where are you coming from (professionally/philosophically)?
+
+
+---
+## Internet Client/Server paradigm (20 min)
+* use the neighborhood/phonebook paradigm
+* discuss network protocols
+* explain IP addresses
+* explain DNS
+
+### workshop (15 min)
+* draw a simple network diagram with 2 different webservers and 5 clients (2 desktops, 2 phones, and a laptop).
+* label the diagram with provided IPv4 addresses
+* add domain names to the diagram
+* explain how a client computer can access each of the servers
+
+---
+## 8086 Architecture (20 min)
+* draw a diagram of CPU/RAM/HDD
+* explain why the parts exist as they do
+* discuss persistent storage (magentic, optical)
+* add an 8 bit bus to the drawing
+  * explain +5v is high(1), +3v is low(0)
+  * draw 1s and 0s along the bus
+* explain how the 1s and 0s can represent data
+* explain the clock
+
+### workshop (10 min)
+* draw the basic 8086 architecture
+* explain to each other what happens to contents in RAM when power is cut and how this problem can be solved
+
+---
+## Number systems (15 min)
+* quick review of base 10 number system
+* explain binary
+* explain octal
+* explain hex
+* explain how scaling the bus made computers better
+### workshop (10 min)
+* find an online converter and convert between number formats
+
+---
+## ASCII (10 min)
+* explain ascii and show how to look it up
+
+### workshop (10 min)
+* search for the ascii table online
+* write the ascii values of the letters of your name and your birthday
+
+---
+## HDD Filesystems focusing on APFS (10 min)
+* ext(2,3,4), ntfs, btrfs, zfs, fat, exFat, hfs+, apfs
+
+### workshop (15 min)
+* learn how to look at the filesystem using MAC gui tools
+---
