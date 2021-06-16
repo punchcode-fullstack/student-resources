@@ -198,19 +198,45 @@ Total Time: 415 minutes
 
 ## Bash Basics (1 hr 30 min)
 
-- pwd, ls, cd, mkdir etc.
-- Nano
+- pwd
+- ls
+- cd
+- mkdir
+- touch
+- cp
+- mv
+- rm
+- nano
+  - navigate the file
+  - exit w/o saving
+  - exit and save
+  - save w/o exiting
 
 ### workshop/hw (1 hr)
+* practice all of the commands from the lecture
 
-- make folder structure using bash (movie exercise
-  - movies
-    - movie title
-  - tv
-    - series name
-      - s01e01
-      - s01e02
-
+* make a media folder using nano (movie exercise)
+```
+media
+  movies
+    movie1.mkv
+    movie2.mkv
+  tv
+    tvShow1
+      Season 1
+        s01e01.avi
+        s01e02.avi
+      Season 2
+        s02e01.avi
+        s02e02.avi
+    tvShow2
+      Season 1
+        s01e01.avi
+        s01e02.avi
+      Season 2
+        s02e01.avi
+        s02e02.avi
+```
 ---
 
 ## Open Forum (30 min)
