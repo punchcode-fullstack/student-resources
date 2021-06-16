@@ -11,11 +11,15 @@ Total Time:
 * ls
 
 ## Bash: echo command
-
+* echo
 
 
 ## Bash: man (10 min)
 learn how to use the ```man``` command to get help on the cli
+* search with ```/```
+* next with ```n```
+* prev with ```Shift+n```
+* quit with ```q```
 
 ### workshop (15 min)
 * use the man command to explore the ```ls``` command
@@ -35,6 +39,7 @@ learn how to use the ```man``` command to get help on the cli
 * top
 * uptime
 * free
+* grep
 
 ### workshop (10 min)
 * list processes for your user
@@ -43,17 +48,18 @@ learn how to use the ```man``` command to get help on the cli
 * check size of home folder
 * check available memory
 * check current system load
+* use grep to filter ps -ax
 
 ## Bash: kill a process (10 min)
 * kill
 * killall
-* pidof
 
 ### workshop (10 min)
 * open nano in a terminal
-* use pidof to get the nano process pid
+* use ```ps -ax | grep nano``` to get the nano process pid
 * kill that nano process from another terminal
 * open several chrome windows
+* use ps -ax to figure out the name of the chrome browser process
 * use killall to close all chrome windows
 
 ## Bash: Fork/background a process, child processes (5 min)
@@ -61,14 +67,13 @@ learn how to use the ```man``` command to get help on the cli
 * explain why you might want to do that
 
 ### workshop (15 min)
-* start chrome from the cli
-* notice how it holds onto the terminal
-* close chrome
-* fork chrome from the cli
-* notice that the terminal is still usable
-* notice that messages related to the forked chrome instance will appear on the terminal
+* run ```tail -f /dev/zero``` in a terminal
+* notice how it holds onto the terminal and you can't use it anymore
+* kill the tail command
+* run the same command forked ```tail -f /dev/zero &```
+* notice that you are given the PID of the forked process and the terminal is still usable
 * close the terminal
-* notice that chrome closes with the terminal b/c it is a child process
+* notice that tail is killed when the terminal is closed b/c it is a child process (use ps to check)
 
 
 ### Bash: reset (1 min)
@@ -108,11 +113,11 @@ learn how to use the ```man``` command to get help on the cli
 * wc
 
 ### workshop (15 min)
-* list the first 10 lines of your .bashrc file
-* list the last 7 lines of your .bashrc file
+* list the first 10 lines of your .zshrc file
+* list the last 7 lines of your .zshrc file
 * how many files are in your home directory
 * create a file named textfiles.txt that contains all of the .txt files in your home directory recursively, one file per line
-* search for the filename and line number of all occurrences of the word "access" in a directory of logfiles
+* search for the filename and line number of all occurrences of the word "Checking" in ~/Library/Logs
 
 
 ## Bash: history (5 min)
@@ -137,12 +142,15 @@ learn how to use the ```man``` command to get help on the cli
 * copy the public key to github profile
 * try to ssh github and see how git shell restricts you
 
+---
 
-## YAML (10 min)
+## YAML and INI (10 min)
 * explain the YAML format
 * show an example of a simple k8s service file
 * show an example of a complex k8s deployment file
-
+* explain the INI format
+* show an example INI file
+---
 ## git: explain and configure (20 min)
 * explain version control
 * globally configure git
@@ -153,6 +161,7 @@ learn how to use the ```man``` command to get help on the cli
 ### workshop (10 min)
 * examine ~/.gitconfig
 
+---
 ## git: basics 1 (30 min)
 * init
 * status
