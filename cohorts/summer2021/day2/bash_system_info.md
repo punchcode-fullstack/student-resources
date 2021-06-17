@@ -3,8 +3,7 @@
 ## Bash: disk space, processes (PIDs), uptime, and load
 
 - df
-- dh
-<!-- -is this supposed to be du? @DB -->
+- du
 - ps
 - top
 - uptime
