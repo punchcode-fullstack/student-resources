@@ -166,6 +166,31 @@ World
 * head, title, meta, link, body
 * HTML validator https://validator.w3.org/
 
+# Forms: Basic
+* revisit the request/response model
+* define frontend
+* define backend
+* tags:
+    * form
+    * input type=text
+    * input type=submit
+* attributes:
+    * id
+    * name
+
+# Forms: Continued
+* label
+* action
+
+# Forms: Real World Example
+* user signup form with validation
+
+## Workshop
+* create a contact us form with the following fields:
+    * email address
+    * name
+    * message
+
 # XML Files
 * describe and show a basic xml file
 * explain an xml schema

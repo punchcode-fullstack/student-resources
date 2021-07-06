@@ -11,7 +11,7 @@
     * etc
 
 # What is it really?
-* ECMA International
+* ECMA International (European Computer Manufacturers Association)
 * The spec (ECMAScript Launguage Specification)
     * https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
     * how to use it
@@ -50,6 +50,7 @@
 
 ## REPL
 * what is a REPL?
+    * read-eval-print-loop
 * chrome devtools as a repl
 * using node locally as a repl
 * quokka in vscode as a repl
@@ -145,6 +146,7 @@
 
 # Functions: IIFE
 * discuss the IIFE pattern
+* mention polyfills that will be examined more closely later
 
 # Hoisting
 * explain hoisting and how we already know what it is b/c we learned how the compiler works
@@ -157,12 +159,16 @@
 
 # Data structures
 * what they are as a very brief overview. just enough to understand 
-* data structure CRUD operations
+* data structure CRUD operations (abstract operations)
 * memory complexity of data structures
 * time complexity of data structures
 * additional resources to learn about BigO
-* array
-* hashtable
+* Minimum required to understand the javascript event loop
+    * array
+    * hashtable
+    * stack
+    * queue: FIFO/LIFO/Priority
+    * heap: loosely organized area of memory
 
 # Objects
 * keys and values
@@ -206,8 +212,49 @@
 * prototypal inheritance
 * swapping prototypes
 
+# Polyfills
+* discuss and implement a polyfill
+
+# async
+* sync vs async
+* the concurrency model: https://www.freecodecamp.org/news/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript-558d8255d8a4/
+* the event loop
+* setTimeout/setInterval
+    * set timers
+    * cancel timers
+* Promises
+    * resolve
+    * reject
+    * race
+    * all
+* Generators
+    * explanation
+    * example: count to infinite w/o running out of RAM
+
 # Common Bugs and ways to stop them
 * variable masking/shadowing
 * coercion based errors
     * nullish coalescence
     * optional chaining
+* off by one
+* clean code
+
+
+# Cross Site Scripting Attacks (XSS)
+* explain what it is
+    * injecting code into the page that isn't supposed to be there. this code is usually malicious, normally trying to steal sensitive user information 
+* demonstration
+    * vulnerable search field
+    
+* protection
+    * CORS
+    * Content-Security-Policy
+
+# CSRF
+* explain what it is
+    * from https://en.wikipedia.org/wiki/Cross-site_request_forgery
+        * unauthorized commands are submitted from a user that the web application trusts
+* demonstration
+    * https://portswigger.net/web-security/csrf
+* protection
+    * csrf token

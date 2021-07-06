@@ -125,15 +125,23 @@ Total Time: 415 minutes
 
 ---
 
-## Internet Client/Server paradigm (20 min)
+## Definitions
+- importance of definitions
+- we will define things as we learn them
+- when you come across a term that you do not understand, find out what it means asap
 
+## Standards
+- standards govern everything in IT
+- this allows people to build things that implement a standard to expect that thing to work with anything else that also implements the standard
+- a core skill that we will learn is how to find, read and understand the published standards that dictate the interfaces to the systems/solutions we create as programmers
+
+## Internet Client/Server paradigm (20 min)
 - use the neighborhood/phonebook paradigm
 - discuss network protocols
 - explain IP addresses
 - explain DNS
 
 ### workshop (15 min)
-
 - draw a simple network diagram with 2 different webservers and 5 clients (2 desktops, 2 phones, and a laptop).
 - label the diagram with provided IPv4 addresses
 - add domain names to the diagram
@@ -142,7 +150,6 @@ Total Time: 415 minutes
 ---
 
 ## 8086 Architecture (20 min)
-
 - draw a diagram of CPU/RAM/HDD
 - explain why the parts exist as they do
 - discuss persistent storage (magentic, optical)
@@ -175,6 +182,7 @@ Total Time: 415 minutes
 - explain octal
 - explain hex
 - explain how scaling the bus made computers better
+- the spec: IEEE 754 is the authority for all things number in computers
 ### workshop (15 min)
 - create a pseudocode algorithm to convert from binary to decimal
 - find an online converter and convert between number formats
@@ -184,22 +192,19 @@ Total Time: 415 minutes
 # Lunch 1hr
 
 ## ASCII (10 min)
-
+- definition ```encoding```
 - explain ascii and show how to look it up
 
 ### workshop (10 min)
-
 - search for the ascii table online
 - write the ascii values of the letters of your name and your birthday
 
 ---
 
 ## HDD Filesystems focusing on APFS (10 min)
-
 - ext(2,3,4), ntfs, btrfs, zfs, fat, exFat, hfs+, apfs
 
 ### workshop (15 min)
-
 - learn how to look at the filesystem using MAC gui tools
 
 ---

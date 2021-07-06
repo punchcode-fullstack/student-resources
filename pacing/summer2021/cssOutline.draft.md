@@ -20,8 +20,12 @@
 # How to style
 
 ## Inline - DEMO
+<<<<<<< Updated upstream
 
 ```HTML
+=======
+```html
+>>>>>>> Stashed changes
 <li style='color: red;'></li>
 ```
 
@@ -34,8 +38,12 @@
 - tags
 
 ## Internal CSS - DEMO
+<<<<<<< Updated upstream
 
 ```CSS
+=======
+```html
+>>>>>>> Stashed changes
 <styles>
 li {
     color: red;
