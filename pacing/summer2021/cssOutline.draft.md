@@ -65,10 +65,13 @@ li {
   - color, font-size, background-color
   - color units
   - units: % px vw vh rem em
+- selectors
+  - id, classes, data, element
 
 # Workshop 1-1 (10 min)
 
 - make sandbox lookup and play around with css properties
+  - link css file
 
 # Lecture 1-2 (15 min)
 
@@ -99,12 +102,23 @@ li {
 - show how to link fonts from google
 - show custom fonts
 
-# workshop 1-2
+<!-- # workshop 1-2 (15min)
 
 - add nav bar
-- add and pick fonts to app
+- add and pick fonts to app -->
 
-# lecture (15 min)
+# lecture 1-3 (45 min)
+
+# Specificity - DEMO
+
+- talk about order of properties in CSS code matters
+- !important > inline > id > class > elements
+- [specificity diagram](https://devopedia.org/images/article/291/6573.1602765746.jpg)
+
+<!-- # workshop 1-3-1
+- exercise-b
+- specificity exercise
+- without changing html, target elements and change styling -->
 
 # Icons
 
@@ -117,12 +131,6 @@ li {
     crossorigin="anonymous"
   ></script>
   ```
-
-# Specificity - DEMO
-
-- talk about order of properties in CSS code matters
-- !important > inline > id > class > elements
-- [specificity diagram](https://devopedia.org/images/article/291/6573.1602765746.jpg)
 
 # Colors
 
@@ -141,11 +149,51 @@ div {
 # Images vs Background Images
 
 - unsplash royalty free images
-  - placeholder (http://www.unsplash.it/size)
+  - placeholder (http://www.unsplash.it/400)
 - background-positioning
 
+<!-- # workshop 1-3-2 (30min)
+- exercise-c
+- make product card
 - imitate this [card example](https://bootsnipp.com/snippets/3x5mD)
-  - apply to xyz website
+  - apply to xyz website -->
+
+# lecture 1-4 (10min)
+
+# lunch
+
+# lecture 1-5 (30-45min)
+
+# Flexbox - DEMO
+
+- what is flexbox?
+- Flexible Box Module - one dimensional layout system
+  - deals with layout one dimension at a time
+- justify-content, align-items, flex-wrap
+- present use case
+  - nav
+- flexbox practice
+  - [flexboxfroggy](https://flexboxfroggy.com/)
+- guide
+
+  - [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+  <!-- # workshop 1-5-1 (45-60 min)
+  - exercise-d
+  - flexbox practice
+    - [flexboxfroggy](https://flexboxfroggy.com/)
+  - make 3x2 grid of product cards
+  - modify nav -->
+
+<!-- # workshop 1-6 (rest of day)
+  - exercise-e
+  - style cart page to spec -->
+
+# CSS Day 2
+
+# Review (15min)
+
+- flexbox
 
 # Multiple Column Layout
 
@@ -155,19 +203,39 @@ div {
 }
 ```
 
-# Flexbox - DEMO
+<!-- # workshop 1-4 (15min)
 
-- what is flexbox?
-- Flexible Box Module - one dimensional layout system
-  - deals with layout one dimension at a time
-- present use case
-  - nav
-- flexbox practice
-  - [flexboxfroggy](https://flexboxfroggy.com/)
-- guide
-  - [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- exercise-f
+- make splash screen in index html with 2 cols and welcome -->
 
-# CSS Day 2
+# lecture 2-1 (30 min)
+
+# Opacity / Filter
+
+- z-index
+
+# SVG
+
+- fill
+- vector vs raster
+
+# workshop 2-1 (15 min)
+
+- add footer content and footer svg to xyz
+
+# Pseudo Classes - DEMO
+
+- a:hover
+  - '>' change child
+  - '~' change sibling
+- input:focus
+- use form to demo pseudo classes
+
+# Pseudo Elements - DEMO
+
+- ::selection
+- ::before
+- ::after
 
 # CSS Grid - DEMO
 
@@ -176,29 +244,15 @@ div {
 - present use case
 - https://css-tricks.com/snippets/css/complete-guide-grid/
   - share with class
+- https://gridbyexample.com/
 
 # CSS Grid and Flexbox Combo - DEMO
 
 - use etsy.com product home page as example
 
-# Opacity
+# workshop (1 hr)
 
-- z-index
-
-# SVG
-
-# Pseudo Classes - DEMO
-
-- a:hover
-  - '>' change child
-  - '~' change sibling
-- input:focus
-
-# Pseudo Elements - DEMO
-
-- ::selection
-- ::before
-- ::after
+- copy https://erdensen.com/
 
 # Day 3
 
@@ -245,12 +299,12 @@ div:hover {
 # Design?
 
 - Meaningful Designs
-- HTML Sections
-- Wireframe - Figma
+- Wireframe - Figma/hand drawn
 - limit colors
 - limit typography
 - css sandbox
   - csszengarden.com
+- https://htmlcheatsheet.com/css/
 
 # Responsive Design
 
