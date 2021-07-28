@@ -20,13 +20,9 @@
 # How to style
 
 ## Inline - DEMO
-<<<<<<< Updated upstream
 
-```HTML
-=======
 ```html
->>>>>>> Stashed changes
-<li style='color: red;'></li>
+<li style="color: red;"></li>
 ```
 
 ## CSS selectors
@@ -38,17 +34,9 @@
 - tags
 
 ## Internal CSS - DEMO
-<<<<<<< Updated upstream
 
-```CSS
-=======
 ```html
->>>>>>> Stashed changes
-<styles>
-li {
-    color: red;
-}
-</styles>
+<styles> li { color: red; } </styles>
 ```
 
 ## External CSS - DEMO
@@ -68,9 +56,10 @@ li {
 - selectors
   - id, classes, data, element
 
-# Workshop 1-1 (10 min)
+# Workshop 1-1 (20 min)
 
 - make sandbox lookup and play around with css properties
+  - make from exercise-a tag
   - link css file
 
 # Lecture 1-2 (15 min)
@@ -92,22 +81,37 @@ li {
 - padding: 0
 - box-sizing: border-box
 
-# Positioning
-
-- position relative, absolute, static, sticky
-
 # Typography
 
 - font-family
 - show how to link fonts from google
 - show custom fonts
-
+- show @import
 <!-- # workshop 1-2 (15min)
+
 
 - add nav bar
 - add and pick fonts to app -->
 
 # lecture 1-3 (45 min)
+
+# height width
+
+- inline and block level behavior
+- parent child %
+
+# display
+
+- block Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+
+- inline Displays an element as an inline element (like <span>). Any height and width properties will have no effect
+
+- inline-block Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
+
+# Positioning
+
+- margin
+- position relative, absolute, static, sticky
 
 # Specificity - DEMO
 
@@ -124,12 +128,19 @@ li {
 
 - fontawesome cdn
   ```html
-  <script
+  <!-- <script
     defer
     src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
     integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   ```
 
 # Colors
@@ -174,6 +185,7 @@ div {
   - nav
 - flexbox practice
   - [flexboxfroggy](https://flexboxfroggy.com/)
+  - [flexbox zombie](https://flexboxzombies.com/p/flexbox-zombies)
 - guide
 
   - [flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -310,4 +322,15 @@ div:hover {
 
 - media queries
 
-# Sass
+# weekend hw
+
+- vacation page
+  - 3 wireframes
+  - 1 mockup
+  - gallery mosaic
+  - nav
+  - profile
+
+# Cheatsheet
+
+- https://htmlcheatsheet.com/css/
